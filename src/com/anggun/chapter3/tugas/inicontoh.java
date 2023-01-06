@@ -1,8 +1,6 @@
 package com.anggun.chapter3.tugas;
 
-import java.util.Scanner;
-
-public class soal1{
+public class inicontoh {
     public static void main(String[] args){
         int nilaiujian = 70;
         char indeksprestasi;

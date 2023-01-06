@@ -1,2 +1,4 @@
-package com.anggun.chapter4.tugas;public class exercises7 {
+package com.anggun.chapter4.tugas;
+
+public class exercises7 {
 }

@@ -1,2 +1,4 @@
-package com.anggun.chapter1.tugas;public class soal4 {
+package com.anggun.chapter1.tugas;
+
+public class soal4 {
 }
