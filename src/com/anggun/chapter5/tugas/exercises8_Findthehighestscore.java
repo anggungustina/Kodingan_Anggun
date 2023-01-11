@@ -1,6 +1,6 @@
 package com.anggun.chapter5.tugas;
 import java.util.Scanner;
-public class exercises8 {
+public class exercises8_Findthehighestscore {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int highestScore = 0;

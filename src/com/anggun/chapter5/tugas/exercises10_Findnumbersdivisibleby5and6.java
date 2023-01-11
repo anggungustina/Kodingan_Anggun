@@ -1,6 +1,6 @@
 package com.anggun.chapter5.tugas;
 
-public class exercises10 {
+public class exercises10_Findnumbersdivisibleby5and6 {
     public static void main(String[] args) {
         final int NUMBER_PER_LINE = 10;
         int count = 0;

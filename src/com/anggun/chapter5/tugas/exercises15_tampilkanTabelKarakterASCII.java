@@ -1,6 +1,6 @@
 package com.anggun.chapter5.tugas;
 
-public class exercises15 {
+public class exercises15_tampilkanTabelKarakterASCII {
     public static void main(String[] args) {
         final int NUMBER_OF_CHARACTERS_PER_LINE = 10;
         int count = 0;

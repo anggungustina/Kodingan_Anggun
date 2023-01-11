@@ -2,7 +2,7 @@ package com.anggun.chapter5.tugas;
 
 import java.util.Scanner;
 
-public class exercises16 {
+public class exercises16_temukanFaktorBilanganBulat {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an integer: ");

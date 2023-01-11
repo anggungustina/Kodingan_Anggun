@@ -2,7 +2,7 @@ package com.anggun.chapter5.tugas;
 
 import java.util.Scanner;
 
-public class exercises14 {
+public class exercises14_Computethegreatestcommondivisor {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter first integer: ");

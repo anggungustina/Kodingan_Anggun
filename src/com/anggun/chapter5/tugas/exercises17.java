@@ -8,7 +8,6 @@ public class exercises17 {
         System.out.print("Enter the number of lines: ");
         int numberOfLines = input.nextInt();
 
-
         for (int rows = 1; rows <= numberOfLines; rows++) {
             for (int s = numberOfLines - rows; s >= 1; s--) {
                 System.out.print("  ");
@@ -20,6 +19,7 @@ public class exercises17 {
                 System.out.print(r + " ");
             }
             System.out.println();
+
         }
     }
 }

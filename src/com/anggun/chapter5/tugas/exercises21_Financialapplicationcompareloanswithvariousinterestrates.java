@@ -2,7 +2,7 @@ package com.anggun.chapter5.tugas;
 
 import java.util.Scanner;
 
-public class exercises21 {
+public class exercises21_Financialapplicationcompareloanswithvariousinterestrates {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Loan amount: ");

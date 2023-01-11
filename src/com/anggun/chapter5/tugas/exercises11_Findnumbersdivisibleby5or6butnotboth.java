@@ -1,6 +1,6 @@
 package com.anggun.chapter5.tugas;
 
-public class exercises11 {
+public class exercises11_Findnumbersdivisibleby5or6butnotboth {
     public static void main(String[] args) {
         final int NUMBERS_PER_LINE = 10;
         int count = 0;

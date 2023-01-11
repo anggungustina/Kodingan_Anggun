@@ -1,16 +1,16 @@
 package com.anggun.chapter5.tugas;
 import java.util.Scanner;
-public class exercises2 {
+public class exercises2_RepeatAdditions {
     public static void main(String[] args) {
-        Scanner input = new Scanner (System.in);
+        Scanner input = new Scanner(System.in);
         final int NUMBER_OF_QUESTIONS = 10;
         int correctCount = 0;
         int count = 0;
         long startTime = System.currentTimeMillis();
         String output = " ";
-        while (count < NUMBER_OF_QUESTIONS){
-            int number1 = 1 + (int)(Math.random() * 15);
-            int number2 = 1 + (int)(Math.random() * 15);
+        while (count < NUMBER_OF_QUESTIONS) {
+            int number1 = 1 + (int) (Math.random() * 15);
+            int number2 = 1 + (int) (Math.random() * 15);
             System.out.print("What is " + number1 + " + " + number2 + "? ");
             int answer = input.nextInt();
             if (number1 + number2 == answer) {

@@ -1,6 +1,6 @@
 package com.anggun.chapter5.tugas;
 
-public class exercises20 {
+public class exercises20_Displayprimenumbersbetween2and1000 {
     public static void main(String[] args) {
         final int NUMBER_OF_PRIMES_PERLINE = 8;
         int count = 0;

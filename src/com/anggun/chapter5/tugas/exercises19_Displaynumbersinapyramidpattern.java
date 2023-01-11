@@ -1,6 +1,6 @@
 package com.anggun.chapter5.tugas;
 
-public class exercises19 {
+public class exercises19_Displaynumbersinapyramidpattern {
     public static void main(String[] args) {
         int startRight = 0,
                 endSpace = 7;

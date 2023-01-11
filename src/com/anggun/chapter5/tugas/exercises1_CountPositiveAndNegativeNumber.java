@@ -1,6 +1,6 @@
 package com.anggun.chapter5.tugas;
 import java.util.Scanner;
-public class exercises1 {
+public class exercises1_CountPositiveAndNegativeNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int positives = 0;

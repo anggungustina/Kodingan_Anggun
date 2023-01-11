@@ -1,6 +1,6 @@
 package com.anggun.chapter5.tugas;
 
-public class exercises7 {
+public class exercises7_Financialapplicationcomputefuturetuition {
     public static void main(String[] args) {
         int totalCost = 0;
         int tuition = 10000;
