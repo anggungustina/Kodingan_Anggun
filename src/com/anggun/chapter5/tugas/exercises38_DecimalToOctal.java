@@ -10,6 +10,7 @@ public class exercises38_DecimalToOctal {
 
         String octal = " ";
         for (int i = decimal; i > 0; i /= 8) {
+            octal = i % 8 + octal;
         }
         System.out.println("The octal of " + decimal + " is " + octal);
     }
