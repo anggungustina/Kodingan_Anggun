@@ -26,6 +26,12 @@ public class Soal3 {
             case 1:
                 System.out.println("konversi bilangan biner ke oktal");
                 System.out.println("Masukan bilangan biner: ");
+                int number;
+                number = 1 & 0;
+                if (number == number)
+                    System.out.println("Valid");
+                else
+                    System.out.println("Invalid");
                 System.out.println("konversi bilangan biner ke oktal adalah " + oktal());
                 break;
 
@@ -59,17 +65,8 @@ public class Soal3 {
                 System.out.println("konversi bilangan oktal ke desimal");
                 System.out.println("Masukan bilangan oktal: ");
                 int AngkaOktal = input.nextInt();
-                int des = 0;
-                int p = 1;
-                int digit;
                 System.out.println("Konversi bilangan oktal ke desimal adalah " + AngkaOktal);
-                while (AngkaOktal != 0) {
-                    digit = AngkaOktal % 10;
-                    des = des + (digit * p);
-                    p = p * 8;
-                    AngkaOktal = AngkaOktal / 10;
-                }
-                System.out.println(" adalah : " + des);
+                System.out.println(" adalah : " + des());
                 break;
             case 6:
                 System.out.println("konversi bilangan oktal ke heksa");
@@ -139,6 +136,18 @@ public class Soal3 {
     public static int biner2() {
         Scanner scan5 = new Scanner(System.in);
         return Integer.parseInt(scan5.nextLine(), 8);
+    }
+
+    //5
+    public static int des() {
+        int AngkaOktal = 0;
+        int des = 0;
+        int p = 1;
+        int digit;
+        digit = AngkaOktal % 10;
+        AngkaOktal = AngkaOktal / 10;
+        p = p * 8;
+        return des + (digit * p);
     }
 
 
