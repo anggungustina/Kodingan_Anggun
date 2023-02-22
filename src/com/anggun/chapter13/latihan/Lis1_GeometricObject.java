@@ -7,6 +7,7 @@ public abstract class Lis1_GeometricObject {
 
     //buat objek geometris default
     protected Lis1_GeometricObject() {
+
         dateCreated = new java.util.Date();
     }
 
