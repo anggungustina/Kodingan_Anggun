@@ -10,4 +10,16 @@ public class PhoneUser {
     void turnOnThePhone() {
         this.phone.powerOn();
     }
+
+    void turnOfThePhone() {
+        this.phone.powerOff();
+    }
+
+    void makePhoneLouder() {
+        this.phone.volumeUp();
+    }
+
+    void makePhoneSilent() {
+        this.phone.volumeDown();
+    }
 }
