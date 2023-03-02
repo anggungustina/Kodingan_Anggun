@@ -10,6 +10,7 @@ public class Ex5_Algebraaddtwomatrices {
         double[][] matrix3 = addMatrix(matrix1, matrix2);
 
         print(matrix1, matrix2, matrix3);
+
     }
 
     public static double[][] getmatrix(int n) {
