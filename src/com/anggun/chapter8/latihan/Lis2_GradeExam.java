@@ -19,6 +19,7 @@ public class Lis2_GradeExam {
             for (int j = 0; j < answer[i].length; j++) {
                 if (answer[i][j] == keys[j])
                     correctCount++;
+
             }
             System.out.println("Student " + i + "'s correct count is " + correctCount);
         }

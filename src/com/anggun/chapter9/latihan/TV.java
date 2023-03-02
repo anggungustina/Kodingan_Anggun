@@ -25,6 +25,7 @@ public class TV {
         if (on && channel < 120 )
             channel++;
     }
+
     public void channelDown() {
         if (on && channel > 1)
             channel --;

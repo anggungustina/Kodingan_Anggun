@@ -13,6 +13,7 @@ public class Ex1_TheRectangleclass {
         System.out.println("Area:   " + rectangle1.getArea());
         System.out.println("Perimeter: " + rectangle1.getPerimeter());
 
+
         System.out.println("\n Rectangel 2");
         System.out.println("--------------");
         System.out.println("Width:  " + rectangle2.width);

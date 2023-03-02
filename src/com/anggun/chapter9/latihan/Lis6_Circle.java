@@ -12,6 +12,7 @@ public class Lis6_Circle {
         radius = newRadius;
         numberOfObjects++;
     }
+
     static  int getNumberOfObjects(){
         return numberOfObjects;
     }

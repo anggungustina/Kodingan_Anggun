@@ -15,6 +15,7 @@ public class Lis7_TestCircleWithStaticMembers {
 
         c1.radius = 9;
 
+
         System.out.println("\nAfter creating c2 and modifying c1 ");
 
     }

@@ -15,6 +15,7 @@ public class Lis1_TestCircle {
         System.out.println("The area of the circle of radius " + circle2.radius + " is" + circle2.getArea());
     }
 }
+
 class Circle{
     double radius;
 

@@ -20,6 +20,7 @@ public class Lis1_PassTwoDimensionalArray {
         return m;
     }
 
+
     public static int sum(int[][] m) {
         int total = 0;
         for (int row = 0; row < m.length; row++) {
