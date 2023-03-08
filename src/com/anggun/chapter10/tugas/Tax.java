@@ -15,7 +15,7 @@ public class Tax {
 
         double[] currentYearRates = {10, 15, 25, 28, 33, 35};
         ;
-        setrates(currentYearRates);
+        setRates(currentYearRates);
 
         int[][] currenntYearbrackets = {
                 {8350, 33950, 82250, 171550, 372950},
@@ -32,8 +32,8 @@ public class Tax {
     }
 
     Tax(int filingStatus, int[][] brackets, double[] rates, double taxableIncome) {
-        setfilingStatus(filingStatus);
-        setBrackets(brackets);
+        setFilingStatus(filingStatus);
+        setbrackets(brackets);
         setRates(rates);
         setTaxableIncome(taxableIncome);
 
@@ -63,6 +63,24 @@ public class Tax {
         for (int i = 0; i < rates.length; i++)
             this.rates[i] = rates[i] / 100;
         }
-
+        public double[] getRates() {
+        return rates;
+        }
+        public void setTaxableIncome(double taxableIncome) {
+        this.taxableIncome = taxableIncome;
+        }
+        public double getTax() {
+        double tax = 0, incomeTaxed = 0;
+        double income = taxableIncome;
+        if (rates.length >= 2) {
+            for (int i = rates.length - 2; i >= 0; i--) {
+                if(income > brackets[filingStatus][i]) {
+                    tax += (incomeTaxed = income - brackets[filingStatus][i]) * rates[i + 1];
+                    income -= incomeTaxed;
+                }
+            }
+        }
+        return  tax += brackets[filingStatus][0] * rates[0];
 
     }
+}
